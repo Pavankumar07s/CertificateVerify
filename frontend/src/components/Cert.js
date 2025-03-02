@@ -37,7 +37,7 @@ const NumberVerificationForm = () => {
       // Remember: PDF coordinates start from bottom-left corner
       // So y=height places text at top, y=0 at bottom
       firstPage.drawText(`${holderName}`, {
-        x: 94,
+        x: 114,
         y: height - 127, // Adjust based on your PDF height
         size: 12,
         font: helveticaFont,
@@ -45,7 +45,7 @@ const NumberVerificationForm = () => {
       });
   
       firstPage.drawText(`Verification ID : ${certificateId}`, {
-        x: 75,
+        x: 105,
         y: height - 200, // Position below the name
         size: 6,
         font: helveticaFont,
